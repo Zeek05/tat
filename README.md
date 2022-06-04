@@ -7,6 +7,10 @@ This plugin unlocks some ANSI Escape Sequences in a easy to use format for batch
 
 ```tat <attributes>```
 
+To reset the screen (wipe all attributes):
+
+```tat reset```
+
 ## Attributes and their behavior.
 Attributes can be supplied in any order and are separated by spaces. If you call tat and do not supply an attribute, it is automatically disabled. E.g, calling ``tat dim`` and then calling ``tat underline`` will disable dim. To avoid this, make sure to include all the formatting you want in each call, e.g ``tat underline dim``.
 
