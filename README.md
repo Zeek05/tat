@@ -32,6 +32,7 @@ italic - *Slants the text and makes it noticeably sharper*<sup>*</sup>
 
 <sup>*</sup><sub>These attributes will populate the entire row when the screen is *resized horizontally*. This is a behavior of the windows console host and out of my control.</sub>
 
+![](tat2.gif)
 
 
 
