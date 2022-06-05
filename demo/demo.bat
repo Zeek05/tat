@@ -1,11 +1,4 @@
 @echo off
-
-Title Demo - Tat By Zeek - batch-man.com
-Pushd ..\build
-Set Path=%Path%;%cd%;
-Popd
-Color 0E
-
 echo The following attributes are supported on the Windows Console:
 echo.
 echo - Bold text (Default attribute on the console. Use it to undo dim)
