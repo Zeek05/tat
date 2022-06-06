@@ -16,7 +16,7 @@ Attributes can be supplied in any order and are separated by spaces. If you call
 
 ### The full list of attributes:
 
-**bold** (or b) - Bold is not noticeable on the command interpreter. It is used to undo the dim attribute. 
+**bold** (or b) - Bold is not noticeable in cmd, but is noticeably stronger on Terminal. It is used to undo the dim attribute. 
 
 un͟d͟e͟r͟l͟i͟n͟e͟ (or ul) - adds an underline to text. This is the small version of the underline (1/2 bigunderline)<sup>*</sup>
 
@@ -40,7 +40,7 @@ foreground (or fg) - sets the foreground text color to the **following argument*
 
 background (or bg) - sets the background text color to the **following argument**, same behavior as foreground.
 
-<sup>*</sup><sub>These attributes will populate the entire row when the screen is *resized horizontally*. This is a behavior of the windows console host and out of my control.</sub>
+<sup>*</sup><sub>These attributes will populate the entire row when the screen is *resized horizontally*. This is a bug of the windows console host and out of my control.</sub>
 
 ![](tat2.gif)
 
