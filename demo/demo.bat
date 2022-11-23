@@ -1,4 +1,7 @@
 @echo off
+
+Pushd "..\build"
+
 echo The following attributes are supported on the Windows Console:
 echo.
 echo - Bold text (Default attribute on the console. Use it to undo dim)
